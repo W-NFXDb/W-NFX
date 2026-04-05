@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W-NFX System</title>
+    <style>
+        @font-face {
+            font-family: 'M';
+            src: url('fonts/M.otf');
+        }
+
+body {
+    position: relative;
+    color: #e0e0e0;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 10; /* Atur opasitas background */
+    z-index: -1;
+}
+
+
+
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        .metal-text {
+            font-family: 'M';
+            font-size: 3.5rem;
+            color: #fff;
+            text-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+            text-align: center;
+            margin-bottom: 50px;
+            letter-spacing: 7px;
+        }
+
+        .app-info {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            align-items: center;
+            margin-bottom: 80px;
+            font-family: 'M.otf';
+            letter-spacing: 4px;
+        }
+  .text-opasitas {
+    opacity: 0.5; 
+    text-align: center;
+    letter-spacing: 11px;
+}
+
+
+        .app-logo {
+            width: 180px;
+            height: 180px;
+            border-radius: 15px;
+            object-fit: center;
+          text-align: center;
+        }
+
+        .info-text { flex: 1; min-width: 280px; }
+        .info-list { list-style: none; padding: 0; font-size: 0.95rem; }
+        .info-list li {
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+        }
+      
+      .logo { text-align: center;}
+
+        .preview-section {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .preview-row {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .preview-img {
+            width: 100%;
+            max-width: 300px;
+            aspect-ratio: 9 / 16;
+            object-fit: cover;
+            border-radius: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        /* KHUSUS GAMBAR 15 */
+        .img-16-9 {
+            max-width: 600px;
+            aspect-ratio: 16 / 9;
+        }
+
+        .preview-imgarrow {
+        text-align: center;
+          font-family: 'M';
+        }
+        .preview-imgarrow img { width: 80px; height: 80px; object-fit: contain; }
+
+        .preview-content { width: 100%; margin-top: 20px; text-align: center; letter-spacing: 4px; }
+        .preview-content h4 { color: #fff; text-transform: uppercase; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1 class="metal-text">W-NFX SYSTEM</h1>
+
+    <div class="app-info">
+        <img src="logoapk.png" alt="Logo" class="app-logo"> 
+        <div class="info-text">
+            <h2>Tentang Aplikasi</h2>
+            <ul class="info-list">
+                <li><span>Nama:</span> <strong>W-NFX System V1</strong></li>
+                <li><span>Versi:</span> <strong>1.0</strong></li>
+                <li><span>Ukuran:</span> <strong>60.02MB</strong></li>
+                <li><span>Min Versi Android:</span> <strong>7+</strong></li>
+                <li><span>Sistem Aplikasi:</span> <strong>MediaProjection</strong></li>
+                <li><span>Sistem Login:</span> <strong>Username & Password</strong></li>
+                <li><span>Developer:</span> <strong>WhyNFX!</strong></li>
+                <li><span>Untuk Pair:</span> <strong>XAUUSD</strong></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="preview-section">
+        <div class="preview-content">
+            <h4>Tentang Aplikasi :</h4>
+            <p>Aplikasi Analisis W-NFX adalah alat analisis trading yang membantu menganalisis pasar dan membuat keputusan trading lebih akurat. Aplikasi ini menggunakan teknologi canggih dan algoritma kompleks untuk mendeteksi pola chart dan memberikan sinyal trading akurat. Untuk menggunakan aplikasi ini, pastikan Anda menggunakan garis horizontal warna putih, memperbesar setengah chart, dan memiliki DPI tidak melebihi 600. Aplikasi ini hanya bekerja pada pair XAUUSD dan menggunakan Screen Mode Real-time, jadi pastikan perangkat Anda kompatibel.</p>
+        </div>
+
+        <div class="preview-row"><img src="2.jpg" class="preview-img"></div>
+        <div class="preview-row"><img src="3.jpg" class="preview-img"></div>
+
+        <div class="preview-content">
+            <h4>Trading Adalah Aktivitas Beresiko.</h4>
+            <p>Sistem ini tidak selamanya benar, jadi gunakan kesabaran dan jangan terlalu mengandalkan aplikasi ini saja. Trading itu sangat beresiko, jadi bijaklah dan jangan menginvestasikan uang yang tidak dapat Anda tanggung kerugiannya. Gunakan teknikal Anda sendiri dan pastikan jaringan dan set up perangkat Anda stabil untuk memaksimalkan kinerja aplikasi</p>
+        </div>
+
+        <div class="preview-content">
+            <h4>1. Atur UI Pada Metatrader :</h4>
+            <p>Pertama-tama Kamu harus atur untuk warna dari UI metatrader kamu, Agar Alat bisa mendeteksi dengan jelas</p>
+        </div>
+
+        <div class="preview-content">
+            <h4>1. OFF/MATIKAN GRID</h4>
+            <p>Disini Untuk Mematikan Grid pergi ke setelan, cara nya tap satu kali pada chart, lalu tekan logo seperti garis lalu matikan</p>
+        </div>
+
+        <div class="preview-row"><img src="4.png" class="preview-img"></div>
+        <div class="preview-imgarrow"><img src="arrow.png"></div>
+        <div class="preview-row"><img src="5.png" class="preview-img"></div>
+
+        <div class="preview-content">
+            <h4>2. Atur Warna/Color</h4>
+            <p>Dipengaturan sebelum nya, geser ke bawah lalu klik warna</p>
+        </div>
+
+        <div class="preview-row"><img src="6.png" class="preview-img"></div>
+        <div class="preview-content"><p>Ubah 2 Warna diatas menjadi hitam, Latar Belakang Dan Latar Depan.</p></div>
+        <div class="preview-imgarrow"><img src="arrow.png"></div>
+        <div class="preview-row"><img src="7.png" class="preview-img"></div>
+        <div class="preview-content"><p>Ubah Jadi Warna Hitam Lalu Klik OK Dan Simpan.</p></div>
+        <div class="preview-imgarrow"><img src="arrow.png"></div>
+        <div class="preview-row"><img src="8.png" class="preview-img"></div>
+
+        <div class="preview-content">
+            <h4>Cara Set Up Untuk Analisis System :</h4>
+            <p>Disini kamu akan Mengatur/Menata Garis Horizontal Untuk System di MetaTrader</p>
+        </div>
+
+        <div class="preview-content">
+            <h4>Set UP Garis Horizontal</h4>
+            <p>Klik Satu kali pada Chart, untuk memunculkan opsi Objek</p>
+        </div>
+
+        <div class="preview-row"><img src="9.png" class="preview-img"></div>
+        <div class="preview-imgarrow"><img src="arrow.png"></div>
+        <div class="preview-row"><img src="10.png" class="preview-img"></div>
+        <div class="preview-content"><p>Klik Garis Yang muncul pada chart, Lalu klik logo pensil (edit).</p></div>
+        <div class="preview-imgarrow"><img src="arrow.png"></div>
+        <div class="preview-row"><img src="11.jpg" class="preview-img"></div>
+        <div class="preview-content"><p>Lalu Klik Bulat itu, lalu Warna nya Menjadi Putih Terang, Lalu Klik Simpan.</p></div>
+        <div class="preview-imgarrow"><img src="arrow.png"></div>
+        <div class="preview-row"><img src="12.png" class="preview-img"></div>
+
+        <div class="preview-content">
+            <h4>Pemetaan Candle Pada Chart : </h4>
+            <p>Jika Semua Sudah Diatur Saatnya Set UP Candle Price Nya. Kamu harus menandai HLC(High Low Close) Pada 1 Candle Yang Tidak Bergerak(Sesudah Harga Bergerak Pada Candle Selanjutnya)</p>
+            <p>Seperti Contoh Ini :</p>
+        </div>
+
+        <div class="preview-row"><img src="13.png" class="preview-img"></div>
+        <div class="preview-imgarrow"><img src="arrow.png"></div>
+        <div class="preview-row"><img src="14.png" class="preview-img"></div>
+        <div class="preview-content"><p>Untuk Garis Usahakan Jangan Menempel atau Menyatu, Itu Bisa Membuat Sistem Error dan NotFound, Jadi Usahakan Terpisah dan Label Harga Jelas. Seperti Ini :</p></div>
+        <div class="preview-imgarrow"><img src="arrow.png"></div>
+        <div class="preview-row"><img src="15.png" class="preview-img img-16-9"></div>
+        <div class="preview-imgarrow"><img src="arrow.png"></div>
+        <div class="preview-row"><img src="16.png" class="preview-img img-16-9"></div>
+        <div class="preview-content"><p>jika semua set up telah kamu lakukan, maka selanjutnya mengaktifkan W-NFX terminal system
+
+klik start pada aplikasi, maka akan muncul bubble dengan tombol Start/Play dan Close</p></div>
+         <div class="preview-row"><img src="17.png" class="preview-img"></div>
+        <div class="preview-imgarrow"><img src="arrow.png"></div>
+                <div class="preview-content"><p>untuk memulai analisis (jika semua set up dan siap analisis kamu telah ada) sesuaikan chart dengan stabil, lalu tekan play dan terminal system mulai analisis dan memperlihatkan hasil untuk entry.l</p></div>
+           
+        <div class="preview-row"><img src="18.png" class="preview-img"></div>
+      <div class="preview-content"><p>Jika Terminal Menyatakan HLC NotFound, Perbesar Chart atau Set Up kamu dengan Jelas agar System dapat Mendeteksi</p></div>
+      <div class="preview-content"><p>Setelah HLC ditemukan, kamu bakal diminta untuk memasukan angka ask atau bid (garis biru yg bergerak cepat, tapi untuk memasukan angka kamu bisa memasukan angka yg dekat dan tidak jauh dengan angka bid atau ask nya)</p></div>
+      <div class="preview-content"><p>fungsi ask bid ini untuk memberi pertimbangan entry. sistem mendeteksi dan memperhitungkan entry dari angka ask atau bid saat ini</p></div>
+      <div class="preview-content"><p>kesimpulan nya ask dan bid itu angka harga XAUUSD saat ini</p></div>
+      <div class="preview-content"><p>baiklah, jika setup dan cara entry yang telah kamu ketahui, silahkan memulai industri trading kamu dengan alat analisis otomatis ini.</p></div>
+      <div class="preview-content"><p>Semoga Profitable, Trader.
+      </p></div>
+      
+      <div class="logo">
+        <img src="logo.png" alt="Logo" class="app-logo">
+        <div class="text-opasitas"><p>DEVELOPED BY WHYNFX</p></div>
+    </div>
+</div>
+
+</body>
+</html>
